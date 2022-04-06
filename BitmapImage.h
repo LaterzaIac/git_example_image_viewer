@@ -12,8 +12,10 @@ public:
     bool load(std::string name);
 
 private:
+    char channel;
+    char depht;
     int width, height;
-    char *buffer;
+    int *buffer;
     std::string name;
 };
 
