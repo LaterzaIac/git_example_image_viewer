@@ -11,6 +11,10 @@ public:
 
     bool load(std::string name);
 
+    bool save();
+
+    void resize(int width, int height);
+
 private:
     char channel;
     char depht;
