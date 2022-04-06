@@ -11,6 +11,8 @@ public:
 
     bool load(std::string name);
 
+    bool save()
+
 private:
     char channel;
     char depht;
